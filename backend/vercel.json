@@ -1,7 +1,11 @@
 {
   "functions": {
-    "api/config.py": {},
-    "api/models.py": {}
+    "api/config.py": {
+      "runtime": "python@3.12"
+    },
+    "api/models.py": {
+      "runtime": "python@3.12"
+    }
   },
   "rewrites": [
     {
