@@ -1,5 +1,12 @@
 {
+  "functions": {
+    "api/config.py": {},
+    "api/models.py": {}
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/main" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/main"
+    }
   ]
 }
