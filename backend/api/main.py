@@ -1,9 +1,14 @@
-from calendar import firstweekday
-
 from flask import request, jsonify
 from config import app, db
 from models import Contact
 
+@app.route('/')
+def home():
+    return 'Hello, World!'
+
+@app.route('/about')
+def about():
+    return 'About'
 
 @app.route("/contacts", methods=["GET"])
 def get_contacts():
